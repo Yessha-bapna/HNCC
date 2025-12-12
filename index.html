@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="HNCC MBA - Premier Management Education Institution offering world-class MBA programs">
+    <title>HNCC MBA - Home | Premier Management Education</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- ========================================
+         HEADER SECTION (Constant across all pages)
+         Logo & College Name
+         ======================================== -->
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo and College Name -->
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>HNCC <span>MBA</span></h1>
+                        <p class="tagline">Excellence in Management Education</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END HEADER SECTION -->
+
+    <!-- ========================================
+         NAVBAR SECTION (Constant across all pages)
+         Logo & Navigation Menu
+         ======================================== -->
+    <nav class="site-navbar">
+        <div class="container">
+            <div class="navbar-content">
+
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <!-- Navigation Menu -->
+                <ul class="nav-menu" id="navMenu">
+                    <li class="active"><a href="index.html">Home</a></li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">
+                            About <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="about.html">About HNCC</a></li>
+                            <li><a href="vision-mission.html">Vision & Mission</a></li>
+                            <li><a href="director-message.html">Director's Message</a></li>
+                            <li><a href="governance.html">Governance</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">
+                            Programs <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="mba-program.html">MBA Program</a></li>
+                            <li><a href="executive-mba.html">Executive MBA</a></li>
+                            <li><a href="specializations.html">Specializations</a></li>
+                            <li><a href="curriculum.html">Curriculum</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">
+                            Admissions <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="admission-process.html">Admission Process</a></li>
+                            <li><a href="eligibility.html">Eligibility</a></li>
+                            <li><a href="fees.html">Fee Structure</a></li>
+                            <li><a href="scholarships.html">Scholarships</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">
+                            Academics <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="faculty.html">Faculty</a></li>
+                            <li><a href="research.html">Research</a></li>
+                            <li><a href="centers.html">Centers of Excellence</a></li>
+                            <li><a href="library.html">Library</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="placements.html">Placements</a></li>
+                    <li><a href="campus-life.html">Campus Life</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVBAR SECTION -->
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-slider">
+            <div class="hero-slide active"
+                style="background: linear-gradient(135deg, rgba(99, 102, 241, 0.9), rgba(139, 92, 246, 0.9)), url('images/hero-1.jpg') center/cover;">
+                <div class="container">
+                    <div class="hero-content">
+                        <h2 class="hero-title animate-fade-in">Shape Your Future with Excellence</h2>
+                        <p class="hero-subtitle animate-fade-in-delay">Join India's premier MBA program and transform
+                            your career</p>
+                        <div class="hero-buttons animate-fade-in-delay-2">
+                            <a href="apply.html" class="btn btn-primary">Apply Now</a>
+                            <a href="programs.html" class="btn btn-secondary">Explore Programs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-slide"
+                style="background: linear-gradient(135deg, rgba(16, 185, 129, 0.9), rgba(5, 150, 105, 0.9)), url('images/hero-2.jpg') center/cover;">
+                <div class="container">
+                    <div class="hero-content">
+                        <h2 class="hero-title">World-Class Faculty</h2>
+                        <p class="hero-subtitle">Learn from industry experts and renowned academicians</p>
+                        <div class="hero-buttons">
+                            <a href="faculty.html" class="btn btn-primary">Meet Our Faculty</a>
+                            <a href="research.html" class="btn btn-secondary">Research Excellence</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-slide"
+                style="background: linear-gradient(135deg, rgba(245, 158, 11, 0.9), rgba(217, 119, 6, 0.9)), url('images/hero-3.jpg') center/cover;">
+                <div class="container">
+                    <div class="hero-content">
+                        <h2 class="hero-title">100% Placement Record</h2>
+                        <p class="hero-subtitle">Top recruiters from across the globe</p>
+                        <div class="hero-buttons">
+                            <a href="placements.html" class="btn btn-primary">Placement Stats</a>
+                            <a href="recruiters.html" class="btn btn-secondary">Our Recruiters</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-controls">
+            <button class="slider-btn prev" aria-label="Previous Slide"><i class="fas fa-chevron-left"></i></button>
+            <div class="slider-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+            <button class="slider-btn next" aria-label="Next Slide"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Quick Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" data-target="5000">0</h3>
+                        <p class="stat-label">Alumni Network</p>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" data-target="200">0</h3>
+                        <p class="stat-label">Top Recruiters</p>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" data-target="15">0</h3>
+                        <p class="stat-label">LPA Highest Package</p>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" data-target="100">0</h3>
+                        <p class="stat-label">Expert Faculty</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Welcome to HNCC MBA</h2>
+                <p class="section-subtitle">Pioneering Excellence in Management Education</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead">HNCC MBA is a premier institution dedicated to nurturing future business leaders
+                        through innovative pedagogy, industry collaboration, and holistic development.</p>
+
+                    <p>With a legacy of excellence spanning decades, we have consistently ranked among the top
+                        management institutions in India. Our rigorous curriculum, combined with experiential learning
+                        and global exposure, prepares students to excel in the dynamic business landscape.</p>
+
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>AICTE Approved Programs</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Industry-Aligned Curriculum</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Global Partnerships</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>State-of-the-Art Infrastructure</span>
+                        </div>
+                    </div>
+
+                    <a href="about.html" class="btn btn-primary">Learn More About Us</a>
+                </div>
+
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="images/about-campus.jpg" alt="HNCC MBA Campus">
+                        <div class="image-overlay">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="programs-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Programs</h2>
+                <p class="section-subtitle">Choose Your Path to Success</p>
+            </div>
+
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>MBA Full-Time</h3>
+                    <p>2-year flagship program designed for aspiring business leaders with comprehensive management
+                        education.</p>
+                    <ul class="program-highlights">
+                        <li>Duration: 2 Years</li>
+                        <li>Specializations: 8+</li>
+                        <li>Intake: 180 Students</li>
+                    </ul>
+                    <a href="mba-program.html" class="btn-link">Explore Program <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="program-card featured">
+                    <div class="featured-badge">Most Popular</div>
+                    <div class="program-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Executive MBA</h3>
+                    <p>Designed for working professionals to advance their careers while continuing their jobs.</p>
+                    <ul class="program-highlights">
+                        <li>Duration: 2 Years</li>
+                        <li>Weekend Classes</li>
+                        <li>For Professionals</li>
+                    </ul>
+                    <a href="executive-mba.html" class="btn-link">Explore Program <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Specializations</h3>
+                    <p>Choose from diverse specializations aligned with industry demands and future trends.</p>
+                    <ul class="program-highlights">
+                        <li>Finance & Analytics</li>
+                        <li>Marketing & Digital</li>
+                        <li>HR & Operations</li>
+                    </ul>
+                    <a href="specializations.html" class="btn-link">View All <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose HNCC MBA</h2>
+                <p class="section-subtitle">What Sets Us Apart</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Expert Faculty</h3>
+                    <p>Learn from accomplished academicians and industry veterans with global experience.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Industry Connect</h3>
+                    <p>Strong partnerships with leading corporations for internships and live projects.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Global Exposure</h3>
+                    <p>International immersion programs and exchange opportunities with partner universities.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Modern Infrastructure</h3>
+                    <p>Smart classrooms, advanced labs, and comprehensive digital learning resources.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Innovation Hub</h3>
+                    <p>Incubation center supporting entrepreneurial ventures and startup initiatives.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Placement Excellence</h3>
+                    <p>Dedicated placement cell ensuring career success with top-tier organizations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Student Testimonials</h2>
+                <p class="section-subtitle">Hear From Our Alumni</p>
+            </div>
+
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"HNCC MBA transformed my career trajectory. The rigorous curriculum and industry exposure
+                            prepared me for leadership roles in the corporate world."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/student-1.jpg" alt="Rahul Sharma">
+                        <div class="author-info">
+                            <h4>Rahul Sharma</h4>
+                            <p>MBA 2022 | Senior Manager, Google</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"The faculty's mentorship and the collaborative learning environment at HNCC helped me
+                            develop both professionally and personally."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/student-2.jpg" alt="Priya Patel">
+                        <div class="author-info">
+                            <h4>Priya Patel</h4>
+                            <p>MBA 2023 | Product Manager, Amazon</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"The global immersion program and international collaborations gave me a truly global
+                            perspective on business management."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/student-3.jpg" alt="Amit Kumar">
+                        <div class="author-info">
+                            <h4>Amit Kumar</h4>
+                            <p>MBA 2021 | Consultant, McKinsey</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News & Events Section -->
+    <section class="news-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Latest News & Events</h2>
+                <p class="section-subtitle">Stay Updated with HNCC MBA</p>
+            </div>
+
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="images/news-1.jpg" alt="News">
+                        <div class="news-date">
+                            <span class="day">15</span>
+                            <span class="month">Dec</span>
+                        </div>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span><i class="fas fa-folder"></i> Admissions</span>
+                        </div>
+                        <h3>MBA Admissions 2024-25 Open</h3>
+                        <p>Applications are now open for MBA programs. Apply before the deadline to secure your seat.
+                        </p>
+                        <a href="#" class="btn-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="images/news-2.jpg" alt="News">
+                        <div class="news-date">
+                            <span class="day">10</span>
+                            <span class="month">Dec</span>
+                        </div>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span><i class="fas fa-folder"></i> Events</span>
+                        </div>
+                        <h3>Annual Business Conclave 2024</h3>
+                        <p>Join industry leaders and experts at our flagship business conclave this January.</p>
+                        <a href="#" class="btn-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="images/news-3.jpg" alt="News">
+                        <div class="news-date">
+                            <span class="day">05</span>
+                            <span class="month">Dec</span>
+                        </div>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span><i class="fas fa-folder"></i> Placements</span>
+                        </div>
+                        <h3>Record-Breaking Placement Season</h3>
+                        <p>Our students secured offers from top global companies with impressive packages.</p>
+                        <a href="#" class="btn-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FOOTER SECTION (Constant across all pages)
+         Footer Links & Contact Information
+         ======================================== -->
+    <footer class="main-footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <h3>About HNCC MBA</h3>
+                        <p>HNCC MBA is committed to excellence in management education, fostering innovation, and
+                            developing future business leaders.</p>
+                        <div class="footer-social">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3>Quick Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="programs.html">Programs</a></li>
+                            <li><a href="admissions.html">Admissions</a></li>
+                            <li><a href="faculty.html">Faculty</a></li>
+                            <li><a href="placements.html">Placements</a></li>
+                            <li><a href="alumni.html">Alumni</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3>Resources</h3>
+                        <ul class="footer-links">
+                            <li><a href="library.html">Library</a></li>
+                            <li><a href="research.html">Research</a></li>
+                            <li><a href="events.html">Events</a></li>
+                            <li><a href="news.html">News</a></li>
+                            <li><a href="careers.html">Careers</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3>Contact Info</h3>
+                        <ul class="footer-contact">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>HNCC MBA Campus<br>Bangalore, Karnataka<br>India - 560001</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone"></i>
+                                <span>+91 123 456 7890</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <span>info@hnccmba.edu.in</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 HNCC MBA. All Rights Reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="privacy.html">Privacy Policy</a>
+                        <a href="terms.html">Terms & Conditions</a>
+                        <a href="sitemap.html">Sitemap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER SECTION -->
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
