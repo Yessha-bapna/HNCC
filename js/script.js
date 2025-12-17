@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function startSlideShow() {
-        slideInterval = setInterval(nextSlide, 3000);
+        slideInterval = setInterval(nextSlide, 5000);
     }
 
     function stopSlideShow() {
@@ -363,18 +363,6 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     }
-
-    // ===================================
-    // Parallax Effect for Hero Section
-    // ===================================
-    window.addEventListener('scroll', function () {
-        const scrolled = window.pageYOffset;
-        const heroSlide = document.querySelector('.hero-slide.active');
-
-        if (heroSlide && scrolled < 600) {
-            heroSlide.style.transform = `translateY(${scrolled * 0.5}px)`;
-        }
-    });
 
     // ===================================
     // Dynamic Year in Footer
