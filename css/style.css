@@ -652,30 +652,34 @@ button {
 /* ===================================
    Section Styles
    =================================== */
-section {
-  padding: var(--spacing-1xl) 0;
-}
 
+   section {
+    padding: var(--spacing-2xl) 0;
+  }
   
-.section-compact {
-  padding: var(--spacing-xl) 0;
-}
-
-
-.section-tight {
-  padding-top: var(--spacing-lg);
-  padding-bottom: var(--spacing-xl);
-}
-
-.section-header {
-  text-align: center;
-  max-width: 700px;
-  margin: 0 auto var(--spacing-2xl);
-}
-
-.section-header.compact {
-  margin-bottom: var(--spacing-lg);
-}
+  /* Reduced padding for title sections */
+  .section-compact {
+    padding: var(--spacing-xl) 0;
+  }
+  
+  /* Tight section right after a header */
+  .section-tight {
+    padding-top: var(--spacing-lg);
+    padding-bottom: var(--spacing-xl);
+  }
+  
+  /* Page / Section header */
+  .section-header {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto var(--spacing-lg);
+  }
+  
+  /* Compact header (Admission, Curriculum, etc.) */
+  .section-header.compact {
+    margin-bottom: var(--spacing-md);
+  }
+  
 
 
 .section-title {
